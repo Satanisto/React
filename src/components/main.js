@@ -5,6 +5,8 @@ import Row from "react-bootstrap/lib/Row";
 import Col from "react-bootstrap/lib/Col";
 import styled from "styled-components";
 
+import Slider from "./slider";
+
 const Repair = styled.div`
   color: #ffffff;
   font-family: Roboto;
@@ -54,6 +56,7 @@ export default class Main extends Component {
           <CallButton>Отправить заявку!</CallButton>
         </Col>
         <Col lg={6} lgOffset={1}>
+          <Slider />
         </Col>
       </Row>
     );
