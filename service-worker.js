@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Satanisto/React/precache-manifest.be5a95ae424ef25906e8b9aa11eaed0d.js"
+  "/react_projects/fproject/precache-manifest.c85ee8603f97e62b1cfb0c7c26a47849.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Satanisto/React/index.html", {
+workbox.routing.registerNavigationRoute("/react_projects/fproject/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
